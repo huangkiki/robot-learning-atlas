@@ -3,6 +3,7 @@
   "sha256": {
     "scripts/check_docs.py": "5149acfecf3f8a22562634f3f63ba88b3ebcab1d977b2eb5c2f79377b80dfc83",
     "scripts/verify_sources.py": "7e675195309701c0dcfe952afa90d0ad70029f180195270e32743774b3287254",
-    "mjlab/examples/inspect_g1.py": "98c1aa112b2be0859fd80b45dde84557513990f3a482681f4eb8e4fa2ae13315"
+    "mjlab/examples/inspect_g1.py": "98c1aa112b2be0859fd80b45dde84557513990f3a482681f4eb8e4fa2ae13315",
+    "learning/examples/rollout_math.py": "b6644426688922185d6faa8e3469581eae25bcc58a13f738e32be33fab6aed15"
   }
 }

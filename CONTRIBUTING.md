@@ -10,14 +10,15 @@
 
 ```bash
 python3 scripts/check_docs.py
-python3 -m compileall -q scripts mjlab/examples
+python3 learning/examples/rollout_math.py
+python3 -m compileall -q scripts mjlab/examples learning/examples
 git diff --check
 ```
 
-更新源码时，在提供三个固定提交源码仓的前提下运行：
+更新源码时，在提供三个框架及 RSL-RL 的固定提交源码仓的前提下运行：
 
 ```bash
-python3 scripts/verify_sources.py --mjlab ../mjlab --isaaclab ../IsaacLab --unilab ../UniLab
+python3 scripts/verify_sources.py --mjlab ../mjlab --isaaclab ../IsaacLab --unilab ../UniLab --rslrl ../rsl_rl
 python3 mjlab/examples/inspect_g1.py --source ../mjlab --num-envs 4096
 ```
 

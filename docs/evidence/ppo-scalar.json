@@ -1,0 +1,16 @@
+{
+  "evidence": "scalar arithmetic only",
+  "returns": {
+    "continuing": [
+      5.8133799999999995,
+      4.96
+    ],
+    "terminal": [
+      2.0889999999999995,
+      1.0
+    ],
+    "timeout_v5_5_1": [
+      2.98
+    ]
+  }
+}

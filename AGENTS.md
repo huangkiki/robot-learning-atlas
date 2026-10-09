@@ -10,6 +10,6 @@
 - Keep source inspection, course-script execution, native simulation, training quality, evaluation and real-robot validation separate. A static example is not a trained policy.
 - Do not infer a shared terminal-observation contract, identical reset order, numerical equivalence or backend capability from similar class names.
 - Keep the README as the homepage. Do not create a website framework, benchmark platform, scheduler, issue taxonomy or new infrastructure without a current need.
-- Run python3 scripts/check_docs.py, python3 -m compileall -q scripts mjlab/examples and git diff --check. For source changes run scripts/verify_sources.py with all pinned checkouts and the affected course example.
+- Run python3 scripts/check_docs.py, python3 -m compileall -q scripts mjlab/examples learning/examples, python3 learning/examples/rollout_math.py and git diff --check. For source changes run scripts/verify_sources.py with all pinned checkouts and the affected course example.
 - Preserve user's unrelated changes. No credentials, addresses, machine-specific paths, cached environments, models or training artifacts in commits.
 - Local development, GitHub visibility/publication, merge/release and scheduling are distinct scopes. Follow the user's existing authorization, including Obsidian course archival and synchronization.

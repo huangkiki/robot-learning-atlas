@@ -1,6 +1,6 @@
 # UniLab：任务、后端与学习运行时的边界
 
-[首页](../README.md) · [源码地图](source-map.md) · [生命周期对照](../comparisons/lifecycle.md)
+[首页](../README.md) · [源码地图](source-map.md) · [Go2 首课](01-native-task.md) · [生命周期对照](../comparisons/lifecycle.md)
 
 **先修：** 共同基础和一种 manager-based 环境；了解 CPU/GPU 是不同执行与存储位置。
 
@@ -52,4 +52,4 @@ CPU 仿真可以向加速器上的学习器提供样本，设备驻留后端也�
 
    **答案：** 返回的 `TorchEnvState` 结构和 adapter，随后核对自动重置与终止观测语义。
 
-**本期状态：** 导读、配置样例和源码地图完成；完整跨后端任务课程、性能比较与原生运行未完成。
+**本期状态：** 导读、源码地图和 [Go2 原生任务课程](01-native-task.md) 完成；跨后端迁移、性能比较与原生运行未验证。

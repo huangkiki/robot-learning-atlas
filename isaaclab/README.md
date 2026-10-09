@@ -1,6 +1,6 @@
 # Isaac Lab：任务工作流与仿真平台怎样配合
 
-[首页](../README.md) · [源码地图](source-map.md) · [生命周期对照](../comparisons/lifecycle.md)
+[首页](../README.md) · [源码地图](source-map.md) · [Cartpole 首课](01-native-task.md) · [生命周期对照](../comparisons/lifecycle.md)
 
 **先修：** 共同基础，建议先读 mjlab 首课。
 
@@ -51,4 +51,4 @@ Direct 并不意味着任意跳过 reset 或仿真同步。Manager-based 也不�
 
    **答案：** 不能。要核对配置、工作流和实际消费者。
 
-**本期状态：** 导读和源码地图完成；完整原生任务、安装验证与训练评估留待 E2/E5。
+**本期状态：** 导读、源码地图和 [Cartpole 原生任务课程](01-native-task.md) 完成。原生安装、运行与短训练留待 E5；独立评估仍待 E6。

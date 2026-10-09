@@ -83,6 +83,34 @@
         "src/mjlab/__init__.py": {
           "sha256": "90e5703f949d94447fae9c93a140a4e769b124bff4294480b662730768be2b3e",
           "lines": 75
+        },
+        "src/mjlab/asset_zoo/robots/unitree_g1/g1_constants.py": {
+          "sha256": "30805e420c1dd03518ee582465fbce9cf097f4dc2eb0c1c2fce55c0332040c07",
+          "lines": 298
+        },
+        "src/mjlab/tasks/velocity/mdp/observations.py": {
+          "sha256": "4e56cefa6481c42e641902cc124cfdd02c3c92b45d8b294253aad0fc87ec9134",
+          "lines": 47
+        },
+        "src/mjlab/tasks/velocity/mdp/curriculums.py": {
+          "sha256": "60a857b7e3456f48ba0ddcc33a70c154998a04ef215dbd40200cbdcdad4cea8b",
+          "lines": 131
+        },
+        "src/mjlab/asset_zoo/robots/unitree_g1/xmls/g1.xml": {
+          "sha256": "febdcbeffbbf84051556ae41a5ac1b43fb479a5d76bdb3f54824dbc2721c20aa",
+          "lines": 308
+        },
+        "src/mjlab/envs/mdp/observations.py": {
+          "sha256": "610b2682fada5fbd7784416e53ba3375cd9e480542737ee4bd5b1f5af79b4b72",
+          "lines": 163
+        },
+        "src/mjlab/managers/observation_manager.py": {
+          "sha256": "1be6b23b36b595e359f4b7d055dc51f59885579fc904767b5aa499f08e6d14fe",
+          "lines": 515
+        },
+        "src/mjlab/managers/event_manager.py": {
+          "sha256": "c8d74e87aab629238ee6b4d0cb458e97a6938670fe492f76ce74bc0488401689",
+          "lines": 390
         }
       }
     },
@@ -123,6 +151,42 @@
         "source/isaaclab_rl/isaaclab_rl/entrypoints/backends/train_rsl_rl.py": {
           "sha256": "5e0816d43e52572b3d4293d22735b713339a3b4d941d2ab70b0451fb74d084f8",
           "lines": 197
+        },
+        "source/isaaclab_tasks/isaaclab_tasks/core/cartpole/cartpole_manager_env_cfg.py": {
+          "sha256": "c6dcece42c100bd55349fab2857d8da4e47fdea7d4b294ac11f0ee71ded43758",
+          "lines": 184
+        },
+        "source/isaaclab_rl/isaaclab_rl/entrypoints/api.py": {
+          "sha256": "e84457f7dcc5f0f8760c6fc1c8c58815ed41ec4c98be58e27293e4416951cd06",
+          "lines": 198
+        },
+        "source/isaaclab_tasks/isaaclab_tasks/core/cartpole/cartpole_common.py": {
+          "sha256": "5f887a7bbfceaf85cefe18d3019b2e6b2bb7828a249aa134c7d5d1626094542f",
+          "lines": 88
+        },
+        "source/isaaclab_rl/pyproject.toml": {
+          "sha256": "c9f8407dc33a93cb1643119bd61c57aa03539f004617ec1fc4a9099c5bc62642",
+          "lines": 43
+        },
+        "source/isaaclab_rl/isaaclab_rl/entrypoints/dispatch.py": {
+          "sha256": "883015a52b14b7d054f669ba884c1364cac21eae42411751789a42d7a15ccadf",
+          "lines": 178
+        },
+        "source/isaaclab_tasks/isaaclab_tasks/core/cartpole/__init__.py": {
+          "sha256": "d8e437bfeda28f589a29ae9872122b3768fa69b992069e4ea54c670e14308d70",
+          "lines": 83
+        },
+        "source/isaaclab_tasks/isaaclab_tasks/core/cartpole/agents/rsl_rl_ppo_cfg.py": {
+          "sha256": "d02d06b43ffd4515121752d154c5cee143e4d4d77c9bc1e8fc72f47950f10737",
+          "lines": 174
+        },
+        "source/isaaclab_tasks/isaaclab_tasks/core/cartpole/cartpole_direct_env.py": {
+          "sha256": "cff52a9c8e7581d7d84a099be0f163b994cae14e64b0937423c7b70bd3d16e33",
+          "lines": 160
+        },
+        "source/isaaclab_tasks/isaaclab_tasks/core/cartpole/cartpole_direct_env_cfg.py": {
+          "sha256": "198b5014224e8ad5d53ef49f7cff68c2ce6c8349134f564fafd6eddecb0a6659",
+          "lines": 75
         }
       }
     },
@@ -175,6 +239,50 @@
         "src/unilab/base/registry.py": {
           "sha256": "034ffe517e7a70c6a006cecf402b91ecf961d757dd60ef0e0cd701e84fb96533",
           "lines": 406
+        },
+        "src/unilab/conf/ppo/task/go2_joystick_flat/base.yaml": {
+          "sha256": "b4b87f13c8dcf9571fb7f75e4df34472a783c2fb947a74f5f781531e245760bf",
+          "lines": 206
+        },
+        "src/unilab/rl/vec_env.py": {
+          "sha256": "a7b9b7d4560d04892aa3238e4d740ee9f4756b58ed8da8e2d8c6d9b52ce6522c",
+          "lines": 187
+        },
+        "src/unilab/conf/ppo/config.yaml": {
+          "sha256": "4cbd8e38eb68ebadeb0f0d2074542a1db370a35c97c7bf0f9159ab83b35646b1",
+          "lines": 139
+        },
+        "src/unilab/tasks/locomotion/common/manager_terms.py": {
+          "sha256": "477a4842f04263be08648051d266abeb011a73731a96e89537e3203dfb5b3db3",
+          "lines": 582
+        },
+        "src/unilab/tasks/locomotion/go2/__init__.py": {
+          "sha256": "1c40439c374bbba7df261cfd1132e81818a34081b268ee8330c277f1e7759950",
+          "lines": 12
+        }
+      }
+    },
+    "rslrl": {
+      "repository": "https://github.com/leggedrobotics/rsl_rl",
+      "commit": "857de6165c5fd479726ec8ac5c9303a497766f30",
+      "tag_at_review": "v5.5.1",
+      "version_label": "5.5.1; exact mjlab dependency, not a cross-framework environment lock",
+      "files": {
+        "rsl_rl/algorithms/ppo.py": {
+          "sha256": "01a82cea45fa9d8ccb161bd75e07d8623d25450ff92982e9c9d59ca8a9b78393",
+          "lines": 484
+        },
+        "rsl_rl/runners/on_policy_runner.py": {
+          "sha256": "c2dbe47974b047e6992e37ff39ac0a236c8fa5cb595cb9e1715e1344e81dc852",
+          "lines": 249
+        },
+        "rsl_rl/storage/rollout_storage.py": {
+          "sha256": "d2728ab2cbc280c163a3d33289216d807ac60e1edf41fb85dd09560e966c9b04",
+          "lines": 357
+        },
+        "pyproject.toml": {
+          "sha256": "03c940c890fa5784716cb2f978a5ae2a1ce26330555b5d4078ff32445decd4ec",
+          "lines": 60
         }
       }
     }

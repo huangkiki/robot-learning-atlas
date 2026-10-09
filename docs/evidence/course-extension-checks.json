@@ -1,0 +1,51 @@
+{
+  "scope": "E2/E3/E4 source courses; no native simulator or learner executed",
+  "reviewed_on": "2026-10-09",
+  "python": "3.10.12",
+  "source_verification": [
+    "mjlab: 26 Git blobs verified at 033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
+    "isaaclab: 17 Git blobs verified at 07daf4426dfa8dcb6d0753768890b4f60dc54f9e",
+    "unilab: 16 Git blobs verified at cbafb5071fb0ea2d7322e1b0b648f8819b2a7499",
+    "rslrl: 4 Git blobs verified at 857de6165c5fd479726ec8ac5c9303a497766f30",
+    "Passed: 63 source files. Working-tree edits and runtime were not evaluated."
+  ],
+  "mjlab_g1_regression": {
+    "evidence": "static-source-analysis",
+    "source_commit": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
+    "task_id": "Mjlab-Velocity-Flat-Unitree-G1",
+    "physics_dt_s": 0.005,
+    "decimation": 4,
+    "policy_dt_s": 0.02,
+    "policy_hz": 50.0,
+    "episode_steps": 1000,
+    "rollout_steps_per_env": 24,
+    "num_envs_assumed": 4096,
+    "transitions_per_rollout": 98304,
+    "simulated_seconds_per_env_per_rollout": 0.48,
+    "runtime_executed": false
+  },
+  "scalar_cases": {
+    "evidence": "scalar arithmetic only",
+    "returns": {
+      "continuing": [
+        5.8133799999999995,
+        4.96
+      ],
+      "terminal": [
+        2.0889999999999995,
+        1.0
+      ],
+      "timeout_v5_5_1": [
+        2.98
+      ]
+    }
+  },
+  "mismatched_trajectory_lengths": "rejected with ValueError",
+  "script_sha256": {
+    "scripts/check_docs.py": "5149acfecf3f8a22562634f3f63ba88b3ebcab1d977b2eb5c2f79377b80dfc83",
+    "scripts/verify_sources.py": "7e675195309701c0dcfe952afa90d0ad70029f180195270e32743774b3287254",
+    "mjlab/examples/inspect_g1.py": "98c1aa112b2be0859fd80b45dde84557513990f3a482681f4eb8e4fa2ae13315",
+    "learning/examples/rollout_math.py": "b6644426688922185d6faa8e3469581eae25bcc58a13f738e32be33fab6aed15"
+  },
+  "runtime_executed": false
+}

@@ -23,7 +23,7 @@ Framework 使用蓝色 mjlab、绿色 Isaac Lab、橙色 UniLab、紫色 Cross-f
 | E5 | [#6 · E5 · 执行冻结配置下的原生运行与训练连通性验收](https://github.com/huangkiki/robot-learning-atlas/issues/6) | [E1 / #2](https://github.com/huangkiki/robot-learning-atlas/issues/2) |
 | E6 | [#7 · E6 · 完成迁移、独立评估与全课程审校](https://github.com/huangkiki/robot-learning-atlas/issues/7) | [E2 / #3](https://github.com/huangkiki/robot-learning-atlas/issues/3)、[E3 / #4](https://github.com/huangkiki/robot-learning-atlas/issues/4)、[E4 / #5](https://github.com/huangkiki/robot-learning-atlas/issues/5)、[E5 / #6](https://github.com/huangkiki/robot-learning-atlas/issues/6) |
 
-本次首期范围为 E0/E1，后续 E2–E6 保留计划状态。任务只有在达到约定交付终点、核实远端提交和 CI 后才标 Done。当前状态以看板和 Issue 为准，本页不复制状态历史。
+本轮课程范围为 E2/E3/E4，承接已有 E0/E1；用户明确将 E5 原生运行与短训练留到后续，E6 仍依赖 E5。任务只有在达到约定交付终点、核实远端提交和 CI 后才标 Done。当前状态以看板和 Issue 为准，本页不复制状态历史。
 
 Project 与新课程仓初始可见性为私有。公开 Sim Atlas 继续作为物理引擎课程入口；本仓已链接到它。面向所有读者的反向入口需在本仓公开后接入，避免公开导航指向不可访问内容。
 

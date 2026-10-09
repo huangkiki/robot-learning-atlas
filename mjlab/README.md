@@ -19,7 +19,7 @@ mjlab 采用 Isaac Lab 风格的 manager 组织方式，以 MuJoCo-Warp 作为�
 5. `VelocityOnPolicyRunner` 继承 `MjlabOnPolicyRunner`，再接到外部 `OnPolicyRunner`。
 6. `play` 重新构建 play 配置、加载策略并交给 viewer。
 
-每个入口都在 [源码地图](source-map.md) 中固定到行号。首课解释从命令到这些入口的完整连接；PPO loss 的具体实现留到 B4，并需固定 `rsl-rl-lib` 的实际依赖版本。
+每个入口都在 [源码地图](source-map.md) 中固定到行号。首课解释从命令到这些入口的完整连接。继续读 [观测与动作](02-observations-actions.md)、[随机化与课程](03-randomization-curriculum.md) 和 [PPO 数据路径](../learning/ppo-data-path.md)；算法专题固定到精确依赖 RSL-RL 5.5.1。
 
 ## 先看语义，再运行
 
@@ -36,4 +36,4 @@ mjlab 采用 Isaac Lab 风格的 manager 组织方式，以 MuJoCo-Warp 作为�
 
   **答案：** G1 play 路径会关闭 actor 观测噪声、移除推扰事件、修改回合长度和命令范围等条件。详见首课。
 
-**本期状态：** 导读、源码地图和首课可读；源码核对脚本已执行。没有训练结果、性能结论或 sim-to-real 成功声明。
+**本期状态：** 导读、源码地图、首课和三个专题可读；源码核对与标量 GAE 示例已执行。没有训练结果、性能结论或 sim-to-real 成功声明。

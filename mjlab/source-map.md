@@ -1,6 +1,6 @@
 # mjlab 固定源码地图
 
-[导读](README.md) · [首课](01-g1-task.md) · [全部版本](../docs/sources.json)
+[导读](README.md) · [首课](01-g1-task.md) · [观测与动作](02-observations-actions.md) · [随机化与课程](03-randomization-curriculum.md) · [PPO](../learning/ppo-data-path.md) · [全部版本](../docs/sources.json)
 
 快照：`033ae22a2c7a30a25a6fa77b16c113ed88dd1b55`，源码元数据 1.6.0。下列行号只对这个提交有效。
 

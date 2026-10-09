@@ -13,5 +13,6 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/check_docs.py
-      - run: python -m compileall -q scripts mjlab/examples
+      - run: python -m compileall -q scripts mjlab/examples learning/examples
+      - run: python learning/examples/rollout_math.py
       - run: git show --format= --check HEAD
