@@ -6,7 +6,12 @@
 
 仓库：[robot-learning-atlas](https://github.com/huangkiki/robot-learning-atlas)。
 
-Project 管理队列与实际状态，Issue 保存范围、依赖和验收，提交及 CI 提供交付证据。Framework 字段用于筛选；阶段由任务标题的 E0–E6 标识。开始、受阻和交付时回写并读回。
+Project 管理队列与实际状态，Issue 保存范围、依赖和验收，提交及 CI 提供交付证据。开始、受阻和交付时回写并读回。
+
+- [开发看板](https://github.com/users/huangkiki/projects/3/views/1)：首页视图，按 Status 分为 Todo、In Progress、Done；卡片显示 Framework、Track 和 Stage。
+- [课程总表](https://github.com/users/huangkiki/projects/3/views/2)：集中查看标题、状态、框架、路线和 E0–E6 阶段，可按相应字段筛选。
+
+Framework 使用蓝色 mjlab、绿色 Isaac Lab、橙色 UniLab、紫色 Cross-framework 和灰色 Shared。Track 区分共同基础、应用路线、原理与源码路线和双路线；阶段使用中性颜色，避免与进度混淆。每个阶段仍保留一个正式 Issue，路线字段描述该阶段的覆盖范围。
 
 | 阶段 | Issue | 前置 |
 |---|---|---|
