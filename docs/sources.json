@@ -1,0 +1,182 @@
+{
+  "reviewed_on": "2026-10-09",
+  "evidence": "source-inspection; runtime behavior not independently validated",
+  "projects": {
+    "mjlab": {
+      "repository": "https://github.com/mujocolab/mjlab",
+      "commit": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
+      "branch_at_review": "main",
+      "version_label": "1.6.0 (source metadata)",
+      "files": {
+        "src/mjlab/tasks/velocity/velocity_env_cfg.py": {
+          "sha256": "8a272a8b3c81c4a0321027e404645c99a4143076522ed3521636bf293dd3137b",
+          "lines": 456
+        },
+        "src/mjlab/tasks/velocity/config/g1/rl_cfg.py": {
+          "sha256": "dcf4a23e031064085e081798c4d3b5bd1cda6ec58ad0081907f2e72c9142a131",
+          "lines": 46
+        },
+        "src/mjlab/envs/mdp/actions/actions.py": {
+          "sha256": "9cae83a2b0006320a8e15e040a0edbf5b4ae76d023832563f1ac36630f3b28d1",
+          "lines": 386
+        },
+        "src/mjlab/rl/vecenv_wrapper.py": {
+          "sha256": "d458aa421d72c979d0269a24e51a4b49a02e4ec8cb5a9d10e47290aa5d86a3e2",
+          "lines": 107
+        },
+        "src/mjlab/managers/reward_manager.py": {
+          "sha256": "a1e12ecdcacc8f90c5fe9e7bd014a6ddbc5afead45b822465257005865d9f401",
+          "lines": 175
+        },
+        "pyproject.toml": {
+          "sha256": "3e746af82228f8c223e92b69d3000432765794ddf24c72b4ca22f14e9819add5",
+          "lines": 173
+        },
+        "README.md": {
+          "sha256": "5230258467903a4e99599f9d8a25aff6021249481cb2e5e5b341a2c14215cbc4",
+          "lines": 141
+        },
+        "src/mjlab/tasks/__init__.py": {
+          "sha256": "310ff3bbeed45f4792394e36ff98eb4b5b70e0657c2e5ef67dd363d510133d9b",
+          "lines": 5
+        },
+        "src/mjlab/tasks/velocity/config/g1/__init__.py": {
+          "sha256": "f4482cf1f1bb27989b0de3f1f45c0c1568185a632c9eb36cc18595cf95ac79cf",
+          "lines": 24
+        },
+        "src/mjlab/tasks/registry.py": {
+          "sha256": "f1c82c8f1ff5d24263787f4cfc2805b7b4103253fe59c054bf649d24c7cc9476",
+          "lines": 71
+        },
+        "src/mjlab/tasks/velocity/config/g1/env_cfgs.py": {
+          "sha256": "5d891ef40987118d1bb2d4bb8791922387d8fdae22752f1e1420dc31f4ddeabf",
+          "lines": 220
+        },
+        "src/mjlab/scripts/train.py": {
+          "sha256": "25da18c990b2267dfa14db97b10397caa089fe9fafa071a614e166cbb75af0f7",
+          "lines": 258
+        },
+        "src/mjlab/envs/manager_based_rl_env.py": {
+          "sha256": "e05034969baaa6ca38d7587190eef95d468fd413f182edd2c8d387c2950701f1",
+          "lines": 618
+        },
+        "src/mjlab/managers/termination_manager.py": {
+          "sha256": "87cc51aa9738e6d137ee936317d76d0b7472c24c58776b4f99dd1bde81d29a6a",
+          "lines": 141
+        },
+        "src/mjlab/rl/runner.py": {
+          "sha256": "61e9200bf304e3df71096cd69f28f4d5973157e61cdc549fc21b6f156326f77e",
+          "lines": 141
+        },
+        "src/mjlab/tasks/velocity/rl/runner.py": {
+          "sha256": "05c396737a75720c09ea4495b6b500a5a21e66d9bf60162a2353245d54b5a91e",
+          "lines": 27
+        },
+        "src/mjlab/scripts/play.py": {
+          "sha256": "606f537c568247c5e9ba2e94ac1a197675411b360fb1db3231f1b46710539456",
+          "lines": 331
+        },
+        "src/mjlab/rl/config.py": {
+          "sha256": "7d391cc0d7a37a4f86c3c4f4a0adc6d75c546273085feed0ddf597aedba6134a",
+          "lines": 145
+        },
+        "src/mjlab/__init__.py": {
+          "sha256": "90e5703f949d94447fae9c93a140a4e769b124bff4294480b662730768be2b3e",
+          "lines": 75
+        }
+      }
+    },
+    "isaaclab": {
+      "repository": "https://github.com/isaac-sim/IsaacLab",
+      "commit": "07daf4426dfa8dcb6d0753768890b4f60dc54f9e",
+      "branch_at_review": "develop",
+      "version_label": "3.0.0 development snapshot; README targets Isaac Sim 6.1",
+      "files": {
+        "README.md": {
+          "sha256": "92027cbc1596a6dd893b9722a4e5da83a0d1058b8b46db3647ceaeb42928d6e2",
+          "lines": 160
+        },
+        "source/isaaclab/isaaclab/envs/manager_based_rl_env.py": {
+          "sha256": "69e586a1eb89dfb926b374c416b595b42708c9b36f8b20feb1a536f134a5ebae",
+          "lines": 426
+        },
+        "source/isaaclab/isaaclab/envs/direct_rl_env.py": {
+          "sha256": "8362595b4810b425e13604f6308962171398e64c31e0c21aefa8318c358fc36b",
+          "lines": 794
+        },
+        "source/isaaclab/isaaclab/envs/manager_based_env.py": {
+          "sha256": "5fcc52973ee10498f5a2acdfbc58cc6772b478bf0732dd1388872c008d7bb050",
+          "lines": 655
+        },
+        "source/isaaclab/isaaclab/envs/manager_based_rl_env_cfg.py": {
+          "sha256": "d03f83bcdceb54cbc4f7d2dcfd10ca2024b35aad7a7649470195d0e2c0925984",
+          "lines": 120
+        },
+        "source/isaaclab/isaaclab/managers/reward_manager.py": {
+          "sha256": "d19adfa18f8ce2563dd94514a9a20796fccb577a3cc1a64f9fb8421a1ef8c72e",
+          "lines": 242
+        },
+        "source/isaaclab_rl/isaaclab_rl/rsl_rl/vecenv_wrapper.py": {
+          "sha256": "7a07be92ed068b434262d4dd6e03011476d71f0b0bf6993ec37492b4d425e1da",
+          "lines": 190
+        },
+        "source/isaaclab_rl/isaaclab_rl/entrypoints/backends/train_rsl_rl.py": {
+          "sha256": "5e0816d43e52572b3d4293d22735b713339a3b4d941d2ab70b0451fb74d084f8",
+          "lines": 197
+        }
+      }
+    },
+    "unilab": {
+      "repository": "https://github.com/Motphys/UniLab",
+      "commit": "cbafb5071fb0ea2d7322e1b0b648f8819b2a7499",
+      "branch_at_review": "main",
+      "version_label": "1.3.3 (source metadata)",
+      "files": {
+        "src/unilab/conf/ppo/task/go2_joystick_flat/mujoco.yaml": {
+          "sha256": "57d4fa8552601cdc151f5dc3e9dee48dbb0281e25f6e4138225414ec9450ddc9",
+          "lines": 29
+        },
+        "src/unilab/base/backend_factory.py": {
+          "sha256": "73d3be40f69242e7cd8d66f7adeaa0cbf1e51cec07d7f8e6638ec856b3e567c5",
+          "lines": 353
+        },
+        "src/unilab/envs/manager_based_rl_env.py": {
+          "sha256": "05d9bac2da2483ca518747ab1d6738fd8c5ac3fb5ecf6e0693d14ea114e52e58",
+          "lines": 1819
+        },
+        "src/unilab/base/torch_env.py": {
+          "sha256": "01ee0affc9c59639cf17b4964ca017f6923f0ddf0c3d84bbf8fa94242960bf69",
+          "lines": 870
+        },
+        "src/unilab/base/env_factory.py": {
+          "sha256": "9dc14072f070b2d000a6872b0bdb541f6fe8dc8867b2102930f665123ff5e2d6",
+          "lines": 89
+        },
+        "src/unilab/base/base.py": {
+          "sha256": "30de4cb55c86edb816f85dc8cd0547263d2aecae96a4696aeb40360300de6177",
+          "lines": 565
+        },
+        "pyproject.toml": {
+          "sha256": "0331e116fd125dce6ebee4aabf011446d90a754bd1591802ed6db28e96c47ebd",
+          "lines": 193
+        },
+        "src/unilab/cli.py": {
+          "sha256": "56d59d92fd463435676bae9bfb336d6830a4a08c4c155a3fd24996ebfc2a16ce",
+          "lines": 600
+        },
+        "src/unilab/scripts/train_rsl_rl.py": {
+          "sha256": "74e9cdf02c87225b10ec95e737a6bc112e7eb5a4b2e8a9da905d59693db817ee",
+          "lines": 702
+        },
+        "src/unilab/base/config_adapter.py": {
+          "sha256": "f4413d76698aaf482342a1702501da15be2da1b512c7b75751054e88110a0668",
+          "lines": 168
+        },
+        "src/unilab/base/registry.py": {
+          "sha256": "034ffe517e7a70c6a006cecf402b91ecf961d757dd60ef0e0cd701e84fb96533",
+          "lines": 406
+        }
+      }
+    }
+  }
+}

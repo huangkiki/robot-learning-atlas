@@ -1,0 +1,20 @@
+[
+  {
+    "case": "python3 mjlab/examples/inspect_g1.py --source ../../work/mjlab --num-envs 64",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "result": "{\n  \"evidence\": \"static-source-analysis\",\n  \"source_commit\": \"033ae22a2c7a30a25a6fa77b16c113ed88dd1b55\",\n  \"task_id\": \"Mjlab-Velocity-Flat-Unitree-G1\",\n  \"physics_dt_s\": 0.005,\n  \"decimation\": 4,\n  \"policy_dt_s\": 0.02,\n  \"policy_hz\": 50.0,\n  \"episode_steps\": 1000,\n  \"rollout_steps_per_env\": 24,\n  \"num_envs_assumed\": 64,\n  \"transitions_per_rollout\": 1536,\n  \"simulated_seconds_per_env_per_rollout\": 0.48,\n  \"runtime_executed\": false\n}"
+  },
+  {
+    "case": "python3 mjlab/examples/inspect_g1.py --source ../../work/mjlab --num-envs 0",
+    "exit_code": 2,
+    "expected_exit_code": 2,
+    "result": "usage: inspect_g1.py [-h] --source SOURCE [--num-envs NUM_ENVS]\ninspect_g1.py: error: --num-envs must be positive"
+  },
+  {
+    "case": "python3 mjlab/examples/inspect_g1.py --source ../../work/IsaacLab",
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "result": "HEAD differs from the course pin; use the reviewed source commit."
+  }
+]

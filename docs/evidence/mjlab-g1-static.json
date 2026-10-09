@@ -1,0 +1,15 @@
+{
+  "evidence": "static-source-analysis",
+  "source_commit": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
+  "task_id": "Mjlab-Velocity-Flat-Unitree-G1",
+  "physics_dt_s": 0.005,
+  "decimation": 4,
+  "policy_dt_s": 0.02,
+  "policy_hz": 50.0,
+  "episode_steps": 1000,
+  "rollout_steps_per_env": 24,
+  "num_envs_assumed": 4096,
+  "transitions_per_rollout": 98304,
+  "simulated_seconds_per_env_per_rollout": 0.48,
+  "runtime_executed": false
+}
